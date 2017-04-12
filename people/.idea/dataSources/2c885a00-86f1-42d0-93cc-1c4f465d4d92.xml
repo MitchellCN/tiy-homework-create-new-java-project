@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="people@localhost">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.0">
+    <root id="1"/>
+    <database id="2" parent="1" name="people">
+      <ObjectId>16386</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <schema id="3" parent="2" name="public">
+      <ObjectId>2200</ObjectId>
+      <IntrospectionTimestamp>2017-03-30.09:40:07.835</IntrospectionTimestamp>
+      <IntrospectionStateNumber>986</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="4" parent="2" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+    </schema>
+    <schema id="5" parent="2" name="pg_toast">
+      <ObjectId>99</ObjectId>
+    </schema>
+    <schema id="6" parent="2" name="pg_temp_1">
+      <ObjectId>11848</ObjectId>
+    </schema>
+    <schema id="7" parent="2" name="pg_toast_temp_1">
+      <ObjectId>11849</ObjectId>
+    </schema>
+    <schema id="8" parent="2" name="information_schema">
+      <ObjectId>12381</ObjectId>
+    </schema>
+    <sequence id="9" parent="3" name="address_addressid_seq">
+      <ObjectId>16402</ObjectId>
+      <StateNumber>879</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="10" parent="3" name="addresstype_addresstypeid_seq">
+      <ObjectId>16408</ObjectId>
+      <StateNumber>885</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="11" parent="3" name="emailaddress_emailaddressid_seq">
+      <ObjectId>16418</ObjectId>
+      <StateNumber>896</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="12" parent="3" name="person_personid_seq">
+      <ObjectId>16428</ObjectId>
+      <StateNumber>910</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="13" parent="3" name="phonenumbertype_phonenumbertypeid_seq">
+      <ObjectId>16442</ObjectId>
+      <StateNumber>926</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="14" parent="3" name="stateprovince_stateprovinceid_seq">
+      <ObjectId>16448</ObjectId>
+      <StateNumber>934</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <table id="15" parent="3" name="address">
+      <ObjectId>16398</ObjectId>
+      <Comment>Street address information for customers, employees, and vendors.</Comment>
+      <StateNumber>985</StateNumber>
+    </table>
+    <table id="16" parent="3" name="addresstype">
+      <ObjectId>16404</ObjectId>
+      <Comment>Types of addresses stored in the Address table.</Comment>
+      <StateNumber>979</StateNumber>
+    </table>
+    <table id="17" parent="3" name="countryregion">
+      <ObjectId>16410</ObjectId>
+      <Comment>Lookup table containing the ISO standard codes for countries and regions.</Comment>
+      <StateNumber>984</StateNumber>
+    </table>
+    <table id="18" parent="3" name="emailaddress">
+      <ObjectId>16414</ObjectId>
+      <Comment>Where to send a person email.</Comment>
+      <StateNumber>980</StateNumber>
+    </table>
+    <table id="19" parent="3" name="password">
+      <ObjectId>16420</ObjectId>
+      <Comment>One way hashed authentication information</Comment>
+      <StateNumber>981</StateNumber>
+    </table>
+    <table id="20" parent="3" name="person">
+      <ObjectId>16424</ObjectId>
+      <Comment>Human beings involved with AdventureWorks: employees, customer contacts, and vendor contacts.</Comment>
+      <StateNumber>986</StateNumber>
+    </table>
+    <table id="21" parent="3" name="personaddress">
+      <ObjectId>16430</ObjectId>
+      <Comment>Cross-reference table mapping customers, vendors, and employees to their addresses.</Comment>
+      <StateNumber>986</StateNumber>
+    </table>
+    <table id="22" parent="3" name="personphone">
+      <ObjectId>16434</ObjectId>
+      <Comment>Telephone number and type of a person.</Comment>
+      <StateNumber>983</StateNumber>
+    </table>
+    <table id="23" parent="3" name="phonenumbertype">
+      <ObjectId>16438</ObjectId>
+      <Comment>Type of phone number of a person.</Comment>
+      <StateNumber>983</StateNumber>
+    </table>
+    <table id="24" parent="3" name="stateprovince">
+      <ObjectId>16444</ObjectId>
+      <Comment>State and province lookup table.</Comment>
+      <StateNumber>984</StateNumber>
+    </table>
+    <routine id="25" parent="3" name="uuid_generate_v1">
+      <ObjectId>16393</ObjectId>
+      <StateNumber>869</StateNumber>
+      <LanguageName>c</LanguageName>
+      <RoutineKind>function</RoutineKind>
+    </routine>
+    <routine id="26" parent="3" name="uuid_generate_v1mc">
+      <ObjectId>16394</ObjectId>
+      <StateNumber>869</StateNumber>
+      <LanguageName>c</LanguageName>
+      <RoutineKind>function</RoutineKind>
+    </routine>
+    <routine id="27" parent="3" name="uuid_generate_v3">
+      <ObjectId>16395</ObjectId>
+      <StateNumber>869</StateNumber>
+      <LanguageName>c</LanguageName>
+      <RoutineKind>function</RoutineKind>
+    </routine>
+    <routine id="28" parent="3" name="uuid_generate_v4">
+      <ObjectId>16396</ObjectId>
+      <StateNumber>869</StateNumber>
+      <LanguageName>c</LanguageName>
+      <RoutineKind>function</RoutineKind>
+    </routine>
+    <routine id="29" parent="3" name="uuid_generate_v5">
+      <ObjectId>16397</ObjectId>
+      <StateNumber>869</StateNumber>
+      <LanguageName>c</LanguageName>
+      <RoutineKind>function</RoutineKind>
+    </routine>
+    <routine id="30" parent="3" name="uuid_nil">
+      <ObjectId>16388</ObjectId>
+      <StateNumber>869</StateNumber>
+      <LanguageName>c</LanguageName>
+      <RoutineKind>function</RoutineKind>
+    </routine>
+    <routine id="31" parent="3" name="uuid_ns_dns">
+      <ObjectId>16389</ObjectId>
+      <StateNumber>869</StateNumber>
+      <LanguageName>c</LanguageName>
+      <RoutineKind>function</RoutineKind>
+    </routine>
+    <routine id="32" parent="3" name="uuid_ns_oid">
+      <ObjectId>16391</ObjectId>
+      <StateNumber>869</StateNumber>
+      <LanguageName>c</LanguageName>
+      <RoutineKind>function</RoutineKind>
+    </routine>
+    <routine id="33" parent="3" name="uuid_ns_url">
+      <ObjectId>16390</ObjectId>
+      <StateNumber>869</StateNumber>
+      <LanguageName>c</LanguageName>
+      <RoutineKind>function</RoutineKind>
+    </routine>
+    <routine id="34" parent="3" name="uuid_ns_x500">
+      <ObjectId>16392</ObjectId>
+      <StateNumber>869</StateNumber>
+      <LanguageName>c</LanguageName>
+      <RoutineKind>function</RoutineKind>
+    </routine>
+    <column id="35" parent="15" name="addressid">
+      <Position>1</Position>
+      <Comment>Primary key for Address records.</Comment>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>936</StateNumber>
+      <DefaultExpression>nextval(&apos;address_addressid_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="36" parent="15" name="addressline1">
+      <Position>2</Position>
+      <Comment>First street address line.</Comment>
+      <DataType>varchar(60)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>871</StateNumber>
+    </column>
+    <column id="37" parent="15" name="addressline2">
+      <Position>3</Position>
+      <Comment>Second street address line.</Comment>
+      <DataType>varchar(60)|0</DataType>
+      <StateNumber>871</StateNumber>
+    </column>
+    <column id="38" parent="15" name="city">
+      <Position>4</Position>
+      <Comment>Name of the city.</Comment>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>871</StateNumber>
+    </column>
+    <column id="39" parent="15" name="stateprovinceid">
+      <Position>5</Position>
+      <Comment>Unique identification number for the state or province. Foreign key to StateProvince table.</Comment>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>871</StateNumber>
+    </column>
+    <column id="40" parent="15" name="postalcode">
+      <Position>6</Position>
+      <Comment>Postal code for the street address.</Comment>
+      <DataType>varchar(15)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>871</StateNumber>
+    </column>
+    <column id="41" parent="15" name="modifieddate">
+      <Position>7</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>871</StateNumber>
+      <DefaultExpression>now()</DefaultExpression>
+    </column>
+    <index id="42" parent="15" name="PK_Address_AddressID">
+      <ObjectId>16458</ObjectId>
+      <ColNames>addressid</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="43" parent="15" name="PK_Address_AddressID">
+      <ObjectId>16459</ObjectId>
+      <ColNames>addressid</ColNames>
+      <UnderlyingIndexName>PK_Address_AddressID</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="44" parent="15" name="FK_Address_StateProvince_StateProvinceID">
+      <ObjectId>16476</ObjectId>
+      <ColNames>stateprovinceid</ColNames>
+      <RefTableName>stateprovince</RefTableName>
+      <RefKeyName>PK_StateProvince_StateProvinceID</RefKeyName>
+      <RefColNames>stateprovinceid</RefColNames>
+    </foreign-key>
+    <column id="45" parent="16" name="addresstypeid">
+      <Position>1</Position>
+      <Comment>Primary key for AddressType records.</Comment>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>937</StateNumber>
+      <DefaultExpression>nextval(&apos;addresstype_addresstypeid_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="46" parent="16" name="name">
+      <Position>2</Position>
+      <Comment>Address type description. For example, Billing, Home, or Shipping.</Comment>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>881</StateNumber>
+    </column>
+    <column id="47" parent="16" name="modifieddate">
+      <Position>3</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>881</StateNumber>
+      <DefaultExpression>now()</DefaultExpression>
+    </column>
+    <index id="48" parent="16" name="PK_AddressType_AddressTypeID">
+      <ObjectId>16456</ObjectId>
+      <ColNames>addresstypeid</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="49" parent="16" name="PK_AddressType_AddressTypeID">
+      <ObjectId>16457</ObjectId>
+      <ColNames>addresstypeid</ColNames>
+      <UnderlyingIndexName>PK_AddressType_AddressTypeID</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="50" parent="17" name="countryregioncode">
+      <Position>1</Position>
+      <Comment>ISO standard code for countries and regions.</Comment>
+      <DataType>varchar(3)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>887</StateNumber>
+    </column>
+    <column id="51" parent="17" name="name">
+      <Position>2</Position>
+      <Comment>Country or region name.</Comment>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>887</StateNumber>
+    </column>
+    <column id="52" parent="17" name="modifieddate">
+      <Position>3</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>887</StateNumber>
+      <DefaultExpression>now()</DefaultExpression>
+    </column>
+    <index id="53" parent="17" name="PK_CountryRegion_CountryRegionCode">
+      <ObjectId>16462</ObjectId>
+      <ColNames>countryregioncode</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="54" parent="17" name="PK_CountryRegion_CountryRegionCode">
+      <ObjectId>16463</ObjectId>
+      <ColNames>countryregioncode</ColNames>
+      <UnderlyingIndexName>PK_CountryRegion_CountryRegionCode</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="55" parent="18" name="personid">
+      <Position>1</Position>
+      <Comment>Primary key. Person associated with this email address.  Foreign key to Person.BusinessEntityID</Comment>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>891</StateNumber>
+    </column>
+    <column id="56" parent="18" name="emailaddressid">
+      <Position>2</Position>
+      <Comment>Primary key. ID of this email address.</Comment>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>938</StateNumber>
+      <DefaultExpression>nextval(&apos;emailaddress_emailaddressid_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="57" parent="18" name="emailaddress">
+      <Position>3</Position>
+      <Comment>E-mail address for the person.</Comment>
+      <DataType>varchar(50)|0</DataType>
+      <StateNumber>891</StateNumber>
+    </column>
+    <column id="58" parent="18" name="modifieddate">
+      <Position>4</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>891</StateNumber>
+      <DefaultExpression>now()</DefaultExpression>
+    </column>
+    <index id="59" parent="18" name="PK_EmailAddress_BusinessEntityID_EmailAddressID">
+      <ObjectId>16464</ObjectId>
+      <ColNames>personid
+emailaddressid</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="60" parent="18" name="PK_EmailAddress_BusinessEntityID_EmailAddressID">
+      <ObjectId>16465</ObjectId>
+      <ColNames>personid
+emailaddressid</ColNames>
+      <UnderlyingIndexName>PK_EmailAddress_BusinessEntityID_EmailAddressID</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="61" parent="18" name="FK_EmailAddress_Person_BusinessEntityID">
+      <ObjectId>16486</ObjectId>
+      <ColNames>personid</ColNames>
+      <RefTableName>person</RefTableName>
+      <RefKeyName>PK_Person_BusinessEntityID</RefKeyName>
+      <RefColNames>personid</RefColNames>
+    </foreign-key>
+    <column id="62" parent="19" name="personid">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>898</StateNumber>
+    </column>
+    <column id="63" parent="19" name="passwordhash">
+      <Position>2</Position>
+      <Comment>Password for the e-mail account.</Comment>
+      <DataType>varchar(128)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>898</StateNumber>
+    </column>
+    <column id="64" parent="19" name="passwordsalt">
+      <Position>3</Position>
+      <Comment>Random value concatenated with the password string before the password is hashed.</Comment>
+      <DataType>varchar(10)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>898</StateNumber>
+    </column>
+    <column id="65" parent="19" name="modifieddate">
+      <Position>4</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>898</StateNumber>
+      <DefaultExpression>now()</DefaultExpression>
+    </column>
+    <index id="66" parent="19" name="PK_Password_BusinessEntityID">
+      <ObjectId>16466</ObjectId>
+      <ColNames>personid</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="67" parent="19" name="PK_Password_BusinessEntityID">
+      <ObjectId>16467</ObjectId>
+      <ColNames>personid</ColNames>
+      <UnderlyingIndexName>PK_Password_BusinessEntityID</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="68" parent="19" name="FK_Password_Person_BusinessEntityID">
+      <ObjectId>16491</ObjectId>
+      <ColNames>personid</ColNames>
+      <RefTableName>person</RefTableName>
+      <RefKeyName>PK_Person_BusinessEntityID</RefKeyName>
+      <RefColNames>personid</RefColNames>
+    </foreign-key>
+    <column id="69" parent="20" name="personid">
+      <Position>1</Position>
+      <Comment>Primary key for Person records.</Comment>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>939</StateNumber>
+      <DefaultExpression>nextval(&apos;person_personid_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="70" parent="20" name="title">
+      <Position>2</Position>
+      <Comment>A courtesy title. For example, Mr. or Ms.</Comment>
+      <DataType>varchar(8)|0</DataType>
+      <StateNumber>902</StateNumber>
+    </column>
+    <column id="71" parent="20" name="firstname">
+      <Position>3</Position>
+      <Comment>First name of the person.</Comment>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>902</StateNumber>
+    </column>
+    <column id="72" parent="20" name="middlename">
+      <Position>4</Position>
+      <Comment>Middle name or middle initial of the person.</Comment>
+      <DataType>varchar(50)|0</DataType>
+      <StateNumber>902</StateNumber>
+    </column>
+    <column id="73" parent="20" name="lastname">
+      <Position>5</Position>
+      <Comment>Last name of the person.</Comment>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>902</StateNumber>
+    </column>
+    <column id="74" parent="20" name="suffix">
+      <Position>6</Position>
+      <Comment>Surname suffix. For example, Sr. or Jr.</Comment>
+      <DataType>varchar(10)|0</DataType>
+      <StateNumber>902</StateNumber>
+    </column>
+    <column id="75" parent="20" name="modifieddate">
+      <Position>7</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>902</StateNumber>
+      <DefaultExpression>now()</DefaultExpression>
+    </column>
+    <index id="76" parent="20" name="PK_Person_BusinessEntityID">
+      <ObjectId>16470</ObjectId>
+      <ColNames>personid</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="77" parent="20" name="PK_Person_BusinessEntityID">
+      <ObjectId>16471</ObjectId>
+      <ColNames>personid</ColNames>
+      <UnderlyingIndexName>PK_Person_BusinessEntityID</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="78" parent="21" name="personid">
+      <Position>1</Position>
+      <Comment>Primary key. Foreign key to BusinessEntity.BusinessEntityID.</Comment>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>912</StateNumber>
+    </column>
+    <column id="79" parent="21" name="addressid">
+      <Position>2</Position>
+      <Comment>Primary key. Foreign key to Address.AddressID.</Comment>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>912</StateNumber>
+    </column>
+    <column id="80" parent="21" name="addresstypeid">
+      <Position>3</Position>
+      <Comment>Primary key. Foreign key to AddressType.AddressTypeID.</Comment>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>912</StateNumber>
+    </column>
+    <column id="81" parent="21" name="modifieddate">
+      <Position>4</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>912</StateNumber>
+      <DefaultExpression>now()</DefaultExpression>
+    </column>
+    <index id="82" parent="21" name="PK_BusinessEntityAddress_BusinessEntityID_AddressID_AddressType">
+      <ObjectId>16460</ObjectId>
+      <ColNames>personid
+addressid
+addresstypeid</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="83" parent="21" name="PK_BusinessEntityAddress_BusinessEntityID_AddressID_AddressType">
+      <ObjectId>16461</ObjectId>
+      <ColNames>personid
+addressid
+addresstypeid</ColNames>
+      <UnderlyingIndexName>PK_BusinessEntityAddress_BusinessEntityID_AddressID_AddressType</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="84" parent="21" name="personaddress_person_personid_fk">
+      <ObjectId>16516</ObjectId>
+      <ColNames>personid</ColNames>
+      <RefTableName>person</RefTableName>
+      <RefKeyName>PK_Person_BusinessEntityID</RefKeyName>
+      <RefColNames>personid</RefColNames>
+    </foreign-key>
+    <foreign-key id="85" parent="21" name="personaddress_address_addressid_fk">
+      <ObjectId>16511</ObjectId>
+      <ColNames>addressid</ColNames>
+      <RefTableName>address</RefTableName>
+      <RefKeyName>PK_Address_AddressID</RefKeyName>
+      <RefColNames>addressid</RefColNames>
+    </foreign-key>
+    <foreign-key id="86" parent="21" name="FK_BusinessEntityAddress_AddressType_AddressTypeID">
+      <ObjectId>16481</ObjectId>
+      <ColNames>addresstypeid</ColNames>
+      <RefTableName>addresstype</RefTableName>
+      <RefKeyName>PK_AddressType_AddressTypeID</RefKeyName>
+      <RefColNames>addresstypeid</RefColNames>
+    </foreign-key>
+    <column id="87" parent="22" name="personid">
+      <Position>1</Position>
+      <Comment>Business entity identification number. Foreign key to Person.BusinessEntityID.</Comment>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>917</StateNumber>
+    </column>
+    <column id="88" parent="22" name="phonenumber">
+      <Position>2</Position>
+      <Comment>Telephone number identification number.</Comment>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>917</StateNumber>
+    </column>
+    <column id="89" parent="22" name="phonenumbertypeid">
+      <Position>3</Position>
+      <Comment>Kind of phone number. Foreign key to PhoneNumberType.PhoneNumberTypeID.</Comment>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>917</StateNumber>
+    </column>
+    <column id="90" parent="22" name="modifieddate">
+      <Position>4</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>917</StateNumber>
+      <DefaultExpression>now()</DefaultExpression>
+    </column>
+    <index id="91" parent="22" name="PK_PersonPhone_BusinessEntityID_PhoneNumber_PhoneNumberTypeID">
+      <ObjectId>16468</ObjectId>
+      <ColNames>personid
+phonenumber
+phonenumbertypeid</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="92" parent="22" name="PK_PersonPhone_BusinessEntityID_PhoneNumber_PhoneNumberTypeID">
+      <ObjectId>16469</ObjectId>
+      <ColNames>personid
+phonenumber
+phonenumbertypeid</ColNames>
+      <UnderlyingIndexName>PK_PersonPhone_BusinessEntityID_PhoneNumber_PhoneNumberTypeID</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="93" parent="22" name="FK_PersonPhone_Person_BusinessEntityID">
+      <ObjectId>16496</ObjectId>
+      <ColNames>personid</ColNames>
+      <RefTableName>person</RefTableName>
+      <RefKeyName>PK_Person_BusinessEntityID</RefKeyName>
+      <RefColNames>personid</RefColNames>
+    </foreign-key>
+    <foreign-key id="94" parent="22" name="FK_PersonPhone_PhoneNumberType_PhoneNumberTypeID">
+      <ObjectId>16501</ObjectId>
+      <ColNames>phonenumbertypeid</ColNames>
+      <RefTableName>phonenumbertype</RefTableName>
+      <RefKeyName>PK_PhoneNumberType_PhoneNumberTypeID</RefKeyName>
+      <RefColNames>phonenumbertypeid</RefColNames>
+    </foreign-key>
+    <column id="95" parent="23" name="phonenumbertypeid">
+      <Position>1</Position>
+      <Comment>Primary key for telephone number type records.</Comment>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>940</StateNumber>
+      <DefaultExpression>nextval(&apos;phonenumbertype_phonenumbertypeid_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="96" parent="23" name="name">
+      <Position>2</Position>
+      <Comment>Name of the telephone number type</Comment>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>922</StateNumber>
+    </column>
+    <column id="97" parent="23" name="modifieddate">
+      <Position>3</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>922</StateNumber>
+      <DefaultExpression>now()</DefaultExpression>
+    </column>
+    <index id="98" parent="23" name="PK_PhoneNumberType_PhoneNumberTypeID">
+      <ObjectId>16472</ObjectId>
+      <ColNames>phonenumbertypeid</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="99" parent="23" name="PK_PhoneNumberType_PhoneNumberTypeID">
+      <ObjectId>16473</ObjectId>
+      <ColNames>phonenumbertypeid</ColNames>
+      <UnderlyingIndexName>PK_PhoneNumberType_PhoneNumberTypeID</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="100" parent="24" name="stateprovinceid">
+      <Position>1</Position>
+      <Comment>Primary key for StateProvince records.</Comment>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>941</StateNumber>
+      <DefaultExpression>nextval(&apos;stateprovince_stateprovinceid_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="101" parent="24" name="stateprovincecode">
+      <Position>2</Position>
+      <Comment>ISO standard state or province code.</Comment>
+      <DataType>char(3)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>928</StateNumber>
+    </column>
+    <column id="102" parent="24" name="countryregioncode">
+      <Position>3</Position>
+      <Comment>ISO standard country or region code. Foreign key to CountryRegion.CountryRegionCode.</Comment>
+      <DataType>varchar(3)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>928</StateNumber>
+    </column>
+    <column id="103" parent="24" name="name">
+      <Position>4</Position>
+      <Comment>State or province description.</Comment>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>928</StateNumber>
+    </column>
+    <column id="104" parent="24" name="modifieddate">
+      <Position>5</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>928</StateNumber>
+      <DefaultExpression>now()</DefaultExpression>
+    </column>
+    <index id="105" parent="24" name="PK_StateProvince_StateProvinceID">
+      <ObjectId>16474</ObjectId>
+      <ColNames>stateprovinceid</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="106" parent="24" name="PK_StateProvince_StateProvinceID">
+      <ObjectId>16475</ObjectId>
+      <ColNames>stateprovinceid</ColNames>
+      <UnderlyingIndexName>PK_StateProvince_StateProvinceID</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="107" parent="24" name="FK_StateProvince_CountryRegion_CountryRegionCode">
+      <ObjectId>16506</ObjectId>
+      <ColNames>countryregioncode</ColNames>
+      <RefTableName>countryregion</RefTableName>
+      <RefKeyName>PK_CountryRegion_CountryRegionCode</RefKeyName>
+      <RefColNames>countryregioncode</RefColNames>
+    </foreign-key>
+    <argument id="108" parent="25">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>uuid|0</DataType>
+    </argument>
+    <argument id="109" parent="26">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>uuid|0</DataType>
+    </argument>
+    <argument id="110" parent="27" name="namespace">
+      <Position>1</Position>
+      <DataType>uuid|0</DataType>
+    </argument>
+    <argument id="111" parent="27" name="name">
+      <Position>2</Position>
+      <DataType>text|0</DataType>
+    </argument>
+    <argument id="112" parent="27">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>uuid|0</DataType>
+    </argument>
+    <argument id="113" parent="28">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>uuid|0</DataType>
+    </argument>
+    <argument id="114" parent="29" name="namespace">
+      <Position>1</Position>
+      <DataType>uuid|0</DataType>
+    </argument>
+    <argument id="115" parent="29" name="name">
+      <Position>2</Position>
+      <DataType>text|0</DataType>
+    </argument>
+    <argument id="116" parent="29">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>uuid|0</DataType>
+    </argument>
+    <argument id="117" parent="30">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>uuid|0</DataType>
+    </argument>
+    <argument id="118" parent="31">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>uuid|0</DataType>
+    </argument>
+    <argument id="119" parent="32">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>uuid|0</DataType>
+    </argument>
+    <argument id="120" parent="33">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>uuid|0</DataType>
+    </argument>
+    <argument id="121" parent="34">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>uuid|0</DataType>
+    </argument>
+  </database-model>
+</dataSource>

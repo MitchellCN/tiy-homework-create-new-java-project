@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="example@localhost">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.0">
+    <root id="1"/>
+    <database id="2" parent="1" name="example">
+      <ObjectId>16524</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <schema id="3" parent="2" name="public">
+      <ObjectId>2200</ObjectId>
+      <IntrospectionTimestamp>2017-03-29.11:33:37.805</IntrospectionTimestamp>
+      <IntrospectionStateNumber>1015</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="4" parent="2" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+    </schema>
+    <schema id="5" parent="2" name="pg_toast">
+      <ObjectId>99</ObjectId>
+    </schema>
+    <schema id="6" parent="2" name="pg_temp_1">
+      <ObjectId>11848</ObjectId>
+    </schema>
+    <schema id="7" parent="2" name="pg_toast_temp_1">
+      <ObjectId>11849</ObjectId>
+    </schema>
+    <schema id="8" parent="2" name="information_schema">
+      <ObjectId>12381</ObjectId>
+    </schema>
+    <sequence id="9" parent="3" name="address_type_id_seq">
+      <ObjectId>16550</ObjectId>
+      <StateNumber>1007</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="10" parent="3" name="player_id_seq">
+      <ObjectId>16525</ObjectId>
+      <StateNumber>1000</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="11" parent="3" name="state_id_seq">
+      <ObjectId>16569</ObjectId>
+      <StateNumber>1015</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <table id="12" parent="3" name="address_type">
+      <ObjectId>16552</ObjectId>
+      <StateNumber>1007</StateNumber>
+    </table>
+    <table id="13" parent="3" name="player">
+      <ObjectId>16527</ObjectId>
+      <StateNumber>1000</StateNumber>
+    </table>
+    <table id="14" parent="3" name="state">
+      <ObjectId>16571</ObjectId>
+      <StateNumber>1015</StateNumber>
+    </table>
+    <column id="15" parent="12" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1007</StateNumber>
+      <DefaultExpression>nextval(&apos;address_type_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="16" parent="12" name="name">
+      <Position>2</Position>
+      <DataType>varchar(15)|0</DataType>
+      <StateNumber>1007</StateNumber>
+    </column>
+    <index id="17" parent="12" name="address_type_pkey">
+      <ObjectId>16556</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="18" parent="12" name="address_type_unique">
+      <ObjectId>16558</ObjectId>
+      <ColNames>name</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="19" parent="12" name="address_type_pkey">
+      <ObjectId>16557</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>address_type_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="20" parent="13" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1000</StateNumber>
+      <DefaultExpression>nextval(&apos;player_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="21" parent="13" name="name">
+      <Position>2</Position>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1000</StateNumber>
+    </column>
+    <column id="22" parent="13" name="alive">
+      <Position>3</Position>
+      <DataType>boolean|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1000</StateNumber>
+      <DefaultExpression>true</DefaultExpression>
+    </column>
+    <column id="23" parent="13" name="score">
+      <Position>4</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1000</StateNumber>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="24" parent="13" name="health">
+      <Position>5</Position>
+      <DataType>double precision|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1000</StateNumber>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <index id="25" parent="13" name="player_pkey">
+      <ObjectId>16534</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="26" parent="13" name="player_name_uindex">
+      <ObjectId>16536</ObjectId>
+      <ColNames>name</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="27" parent="13" name="player_pkey">
+      <ObjectId>16535</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>player_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="28" parent="14" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1015</StateNumber>
+      <DefaultExpression>nextval(&apos;state_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="29" parent="14" name="code">
+      <Position>2</Position>
+      <DataType>varchar(2)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1015</StateNumber>
+    </column>
+    <column id="30" parent="14" name="name">
+      <Position>3</Position>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1015</StateNumber>
+    </column>
+    <index id="31" parent="14" name="state_pkey">
+      <ObjectId>16575</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="32" parent="14" name="state_pkey">
+      <ObjectId>16576</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>state_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

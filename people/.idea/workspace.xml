@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="29f9301f-3723-4e52-aa4e-2363091f38cf" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="people@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="people@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="people@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="people@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2c885a00-86f1-42d0-93cc-1c4f465d4d92/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="people.public.person" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/f8ab084a/2c885a00-86f1-42d0-93cc-1c4f465d4d92/people.public.person">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DATABASE/2c885a00-86f1-42d0-93cc-1c4f465d4d92.SCHEMA:people.public" pinned="false" current-in-tab="true">
+        <entry file="uml://DATABASE/2c885a00-86f1-42d0-93cc-1c4f465d4d92.SCHEMA:people.public">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>2c885a00-86f1-42d0-93cc-1c4f465d4d92.SCHEMA:people.public</OriginalElement>
+              <nodes>
+                <node x="306.0" y="382.0">2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.addresstype</node>
+                <node x="652.9666666666667" y="338.0">2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.person</node>
+                <node x="791.625" y="573.0">2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.emailaddress</node>
+                <node x="1057.125" y="382.0">2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.phonenumbertype</node>
+                <node x="553.625" y="573.0">2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.password</node>
+                <node x="1.5" y="147.0">2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.stateprovince</node>
+                <node x="1029.625" y="573.0">2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.personphone</node>
+                <node x="306.38750000000005" y="573.0">2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.personaddress</node>
+                <node x="0.0" y="0.0">2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.countryregion</node>
+                <node x="1.0" y="338.0">2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.address</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.address" target="2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.stateprovince">
+                  <point x="0.0" y="-92.5" />
+                  <point x="0.0" y="70.5" />
+                </edge>
+                <edge source="2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.password" target="2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.person">
+                  <point x="0.0" y="-59.5" />
+                  <point x="662.625" y="553.0" />
+                  <point x="757.2166666666667" y="553.0" />
+                  <point x="-34.75" y="92.5" />
+                </edge>
+                <edge source="2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.personaddress" target="2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.address">
+                  <point x="-72.66666666666669" y="-59.5" />
+                  <point x="342.72083333333336" y="553.0" />
+                  <point x="143.5" y="553.0" />
+                  <point x="0.0" y="92.5" />
+                </edge>
+                <edge source="2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.personphone" target="2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.person">
+                  <point x="-54.5" y="-59.5" />
+                  <point x="1084.125" y="543.0" />
+                  <point x="896.2166666666667" y="543.0" />
+                  <point x="104.25" y="92.5" />
+                </edge>
+                <edge source="2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.personaddress" target="2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.person">
+                  <point x="72.66666666666669" y="-59.5" />
+                  <point x="488.05416666666673" y="543.0" />
+                  <point x="687.7166666666667" y="543.0" />
+                  <point x="-104.25" y="92.5" />
+                </edge>
+                <edge source="2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.emailaddress" target="2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.person">
+                  <point x="0.0" y="-59.5" />
+                  <point x="900.625" y="553.0" />
+                  <point x="826.7166666666667" y="553.0" />
+                  <point x="34.75" y="92.5" />
+                </edge>
+                <edge source="2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.personaddress" target="2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.addresstype">
+                  <point x="0.0" y="-59.5" />
+                  <point x="415.38750000000005" y="553.0" />
+                  <point x="423.0" y="553.0" />
+                  <point x="0.0" y="48.5" />
+                </edge>
+                <edge source="2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.stateprovince" target="2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.countryregion">
+                  <point x="0.0" y="-70.5" />
+                  <point x="0.0" y="48.5" />
+                </edge>
+                <edge source="2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.personphone" target="2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.phonenumbertype">
+                  <point x="54.5" y="-59.5" />
+                  <point x="0.0" y="48.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.534074074074074" x="665.0" y="346.0" />
+              <SelectedNodes>
+                <node>2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.address</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Key columns</Category>
+                <Category>Columns</Category>
+              </Categories>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/2c885a00-86f1-42d0-93cc-1c4f465d4d92/console.sql" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="34" />
+    <option name="y" value="25" />
+    <option name="width" value="1440" />
+    <option name="height" value="807" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="29f9301f-3723-4e52-aa4e-2363091f38cf" name="Default" comment="" />
+      <created>1490802343848</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1490802343848</updated>
+      <workItem from="1490802351045" duration="1204000" />
+      <workItem from="1490880001014" duration="3502000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4706000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="34" y="25" width="1440" height="807" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.040057223" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16147308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2c885a00-86f1-42d0-93cc-1c4f465d4d92/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/f8ab084a/2c885a00-86f1-42d0-93cc-1c4f465d4d92/people.public.person">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/f8ab084a/2c885a00-86f1-42d0-93cc-1c4f465d4d92/people.public.person">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2c885a00-86f1-42d0-93cc-1c4f465d4d92/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/f8ab084a/2c885a00-86f1-42d0-93cc-1c4f465d4d92/people.public.person">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/f8ab084a/2c885a00-86f1-42d0-93cc-1c4f465d4d92/people.public.person">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/2c885a00-86f1-42d0-93cc-1c4f465d4d92.SCHEMA:people.public">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>2c885a00-86f1-42d0-93cc-1c4f465d4d92.SCHEMA:people.public</OriginalElement>
+          <nodes>
+            <node x="306.0" y="382.0">2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.addresstype</node>
+            <node x="652.9666666666667" y="338.0">2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.person</node>
+            <node x="791.625" y="573.0">2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.emailaddress</node>
+            <node x="1057.125" y="382.0">2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.phonenumbertype</node>
+            <node x="553.625" y="573.0">2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.password</node>
+            <node x="1.5" y="147.0">2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.stateprovince</node>
+            <node x="1029.625" y="573.0">2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.personphone</node>
+            <node x="306.38750000000005" y="573.0">2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.personaddress</node>
+            <node x="0.0" y="0.0">2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.countryregion</node>
+            <node x="1.0" y="338.0">2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.address</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.address" target="2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.stateprovince">
+              <point x="0.0" y="-92.5" />
+              <point x="0.0" y="70.5" />
+            </edge>
+            <edge source="2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.password" target="2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.person">
+              <point x="0.0" y="-59.5" />
+              <point x="662.625" y="553.0" />
+              <point x="757.2166666666667" y="553.0" />
+              <point x="-34.75" y="92.5" />
+            </edge>
+            <edge source="2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.personaddress" target="2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.address">
+              <point x="-72.66666666666669" y="-59.5" />
+              <point x="342.72083333333336" y="553.0" />
+              <point x="143.5" y="553.0" />
+              <point x="0.0" y="92.5" />
+            </edge>
+            <edge source="2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.personphone" target="2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.person">
+              <point x="-54.5" y="-59.5" />
+              <point x="1084.125" y="543.0" />
+              <point x="896.2166666666667" y="543.0" />
+              <point x="104.25" y="92.5" />
+            </edge>
+            <edge source="2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.personaddress" target="2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.person">
+              <point x="72.66666666666669" y="-59.5" />
+              <point x="488.05416666666673" y="543.0" />
+              <point x="687.7166666666667" y="543.0" />
+              <point x="-104.25" y="92.5" />
+            </edge>
+            <edge source="2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.emailaddress" target="2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.person">
+              <point x="0.0" y="-59.5" />
+              <point x="900.625" y="553.0" />
+              <point x="826.7166666666667" y="553.0" />
+              <point x="34.75" y="92.5" />
+            </edge>
+            <edge source="2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.personaddress" target="2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.addresstype">
+              <point x="0.0" y="-59.5" />
+              <point x="415.38750000000005" y="553.0" />
+              <point x="423.0" y="553.0" />
+              <point x="0.0" y="48.5" />
+            </edge>
+            <edge source="2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.stateprovince" target="2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.countryregion">
+              <point x="0.0" y="-70.5" />
+              <point x="0.0" y="48.5" />
+            </edge>
+            <edge source="2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.personphone" target="2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.phonenumbertype">
+              <point x="54.5" y="-59.5" />
+              <point x="0.0" y="48.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.534074074074074" x="665.0" y="346.0" />
+          <SelectedNodes>
+            <node>2c885a00-86f1-42d0-93cc-1c4f465d4d92.TABLE:people.public.address</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

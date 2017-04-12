@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+
+    <h1>This is my page</h1>
+    <meta charset="UTF-8"/>
+    <title>Chris Page</title>
+    <p> I'm awesome</p>
+</head>
+<body>
+my body rules! sometimes
+<img src="../static/funnypic.jpg" th:src="@{funnypic.jpg}"/>
+<p th:text="${time}">Time goes here!!! </p>
+<p th:text="${done}">Hello!!! </p>
+<img src="../static/toiletkid.jpg" th:src="@{toiletkid.jpg}"/>
+</body>
+</html>

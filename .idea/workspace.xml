@@ -3,16 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="74afb01d-5336-414a-8620-96a8ae0160b7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bestmovies" afterPath="$PROJECT_DIR$/Bestmovies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlayingCards" afterPath="$PROJECT_DIR$/PlayingCards" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TIY-Date-Helper" afterPath="$PROJECT_DIR$/TIY-Date-Helper" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic-java-arithmetic-operators-in-java" afterPath="$PROJECT_DIR$/basic-java-arithmetic-operators-in-java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic-java-expressions-and-data-types-in-java" afterPath="$PROJECT_DIR$/basic-java-expressions-and-data-types-in-java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes-in-java-classes-in-java" afterPath="$PROJECT_DIR$/classes-in-java-classes-in-java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/collections-in-java-lists" afterPath="$PROJECT_DIR$/collections-in-java-lists" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/collections-in-java-looping-over-arrays" afterPath="$PROJECT_DIR$/collections-in-java-looping-over-arrays" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/collections-in-java-maps" afterPath="$PROJECT_DIR$/collections-in-java-maps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/collections-in-java-multidimensional-arrays" afterPath="$PROJECT_DIR$/collections-in-java-multidimensional-arrays" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dates-and-times-in-java-dates-and-times" afterPath="$PROJECT_DIR$/dates-and-times-in-java-dates-and-times" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/goup_day03" afterPath="$PROJECT_DIR$/goup_day03" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/group_work_Day_03" afterPath="$PROJECT_DIR$/group_work_Day_03" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tiy-homework-age-validator" afterPath="$PROJECT_DIR$/tiy-homework-age-validator" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tiy-homework-animal-shelter" afterPath="$PROJECT_DIR$/tiy-homework-animal-shelter" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-input-scanner-class" afterPath="$PROJECT_DIR$/user-input-scanner-class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CardsCycle/.idea/workspace.xml" afterPath="$PROJECT_DIR$/CardsCycle/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CardsUs/.idea/workspace.xml" afterPath="$PROJECT_DIR$/CardsUs/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/collections-in-java-arrays-in-java/.idea/workspace.xml" afterPath="$PROJECT_DIR$/collections-in-java-arrays-in-java/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,10 +62,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="137" />
+    <option name="x" value="80" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="812" />
+    <option name="height" value="807" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -75,6 +82,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -148,7 +156,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -261,20 +268,20 @@
       <workItem from="1488382735615" duration="1000" />
       <workItem from="1489106730777" duration="87000" />
       <workItem from="1489596480546" duration="1157000" />
+      <workItem from="1491505264400" duration="4000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1440000" />
+    <option name="totallyTimeSpent" value="1444000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="137" y="23" width="1440" height="812" extended-state="0" />
+    <frame x="80" y="23" width="1440" height="807" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -286,7 +293,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26037195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2639485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -298,6 +305,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -317,6 +325,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/basic-java-arithmetic-operators-in-java/src/main/java/ArithmeticOperators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/basic-java-arithmetic-operators-in-java/src/main/java/ArithmeticOperators.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
