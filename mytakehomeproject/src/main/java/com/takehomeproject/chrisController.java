@@ -4,6 +4,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import java.time.LocalDateTime;
+
 /**
  * Created by cmitchell on 4/11/17.
  */
@@ -16,7 +18,8 @@ public class chrisController {
 
     public String battle(Model model){
 
-        model.addAttribute("meat");
+        model.addAttribute("meat", LocalDateTime.now());
+        model.addAttribute("frosty", "Snowman");
 
         return "chris";
     }
