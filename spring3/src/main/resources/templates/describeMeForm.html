@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Finance/Tax</title>
+
+    <link rel="stylesheet" href="../static/css/styles.css" th:href="@{/css/styles.css}" />
+<body>
+
+<nav>
+    <ul>
+        <li><a href="person.html" th:href="@{/}">Retirement?</a></li>
+        <li><a href="describeMeForm.html.html" th:href="@{/person}">Keep on Truckin!</a></li>
+    </ul>
+</nav>
+
+<h1>Retirement/Truckin</h1>
+
+<form action="/describeMe" method="post">
+    <div>
+        <label for="name">Retirement</label>
+        <input type="text" name="name" id="name" value="" />
+    </div>
+
+    <div>
+        <label for="city">Truckin</label>
+        <input type="text" name="city" id="city" value="" />
+    </div>
+
+    <div>
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age" value="" />
+    </div>
+
+    <button>Say Hi!</button>
+</form>
+</head>
+</body>
+</html>

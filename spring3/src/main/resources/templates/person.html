@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>People List</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
+
+</head>
+
+<body>
+
+<nav>
+    <ul>
+        <li><a href="person.html" th:href="@{/}">Business Blog</a></li>
+        <li><a href="describeMeForm.html" th:href="@{/describeMeForm}">Finance</a></li>
+        <li><a href="describeMeForm.html" th:href="@{/describeMeForm}">Taxes</a></li>
+        <li><a href="describeMeForm.html" th:href="@{/describeMeForm}">Relax Zone</a></li>
+    </ul>
+</nav>
+<h1>Manage Your MONEY and Your TIME!</h1>
+
+<form action="person.html" th:action="@{/}" method="post">
+    <label>
+        <span>Here I am</span>
+        <input type="text" name="search" value="" th:value="${search}" />
+    </label>
+    <button>GO NOW!</button>
+</form>
+<!--shows the size of list-->
+<p>Showing <span th:text="${people.size()}"></span> people. Click on a header to sort.</p>
+
+
+<div>RETIRE NOW!!</div>
+</body>
+</html>
